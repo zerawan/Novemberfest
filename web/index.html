@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--<link rel="stylesheet" href="css/nav_bar.css" type="text/css"/>-->
     <meta charset="UTF-8">
     <title>Index</title>
+
+    <style>
+
+        .container {
+            width: 100%;
+            border: 1px solid gray;
+        }
+
+        .header {
+            padding: 1em;
+            color: red;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+
+        .footer {
+
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+
+        .content {
+            border-left: 1px solid gray;
+            padding: 5em;
+        }
+
+
+        .navigatie {
+            width: 100%;
+            background-color: orange;
+            height: 30px; /* tijdelijk*/
+        }
+
+        .navigatie table.table_nav {
+            /*margin: auto;*/
+           float: left;
+            padding: 0 0 0 50%;
+
+        }
+
+       .navigatie table.table_contact {
+            float: right;
+           padding:0 20px 0 0 ;
+        }
+
+        #email{
+            background-image:url("icons/ic_email_black_48dp.png");
+            width: 30px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            cursor: pointer;
+        }
+
+        #plaats{
+            background-image:url("icons/ic_location_on_black_48dp.png");
+            width: 30px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            cursor: pointer;
+        }
+
+    </style>
+
 </head>
 <body>
-<h1>Hallooooo</h1>
+<!--body start-->
+<div class="container">
+    <!--start header div-->
+    <div class="header">
+        <h1>Image</h1>
+    </div>
+    <!--end header div-->
+    <!--start nav bar-->
+    <div class="navigatie">
+        <table class="table_nav">
+            <tr>
+                <td><a href="#">London</a></td>
+                <td> |</td>
+                <td><a href="#">Paris</a></td>
+                <td> |</td>
+                <td><a href="#">Tokyo</a></td>
+            </tr>
+        </table>
+        <table class="table_contact">
+            <tr >
+                <td id="email"><a href="#"></a></td>
+                <td> |</td>
+                <td id="plaats"><a href="#"></a></td>
+                <td> |</td>
+                <td><a href="#">3</a></td>
+            </tr>
+        </table>
+    </div>
+    <!--end nav bar-->
+    <!--start content-->
+    <div class="content">
+
+        <!--<article>-->
+        <h1>London</h1>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
+            metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+            its founding by the Romans, who named it Londinium.</p>
+    </div>
+    <!--end content-->
+    <!--start footer-->
+    <div class="footer">
+        my footer
+    </div>
+    <!--end footer-->
+    <!--end container-->
+</div>
+<!--body end-->
 </body>
 </html>
