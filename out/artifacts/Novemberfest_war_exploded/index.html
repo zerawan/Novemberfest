@@ -1,82 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--<link rel="stylesheet" href="css/nav_bar.css" type="text/css"/>-->
+    <link rel="stylesheet" href="Opmaak/stylesheet.css" type="text/css"/>
     <meta charset="UTF-8">
     <title>Index</title>
 
-    <style>
 
-        .container {
-            width: 100%;
-            border: 1px solid gray;
-        }
-
-        .header {
-            padding: 1em;
-            color: red;
-            background-color: black;
-            clear: left;
-            text-align: center;
-        }
-
-        .footer {
-
-            padding: 1em;
-            color: white;
-            background-color: black;
-            clear: left;
-            text-align: center;
-        }
-
-        .content {
-            border-left: 1px solid gray;
-            padding: 5em;
-        }
-
-
-        .navigatie {
-            width: 100%;
-            background-color: orange;
-            height: 30px; /* tijdelijk*/
-        }
-
-        .navigatie table.table_nav {
-            /*margin: auto;*/
-           float: left;
-            /*padding: 0 0 0 50%;*/
-
-        }
-
-       .navigatie table.table_contact {
-            float: right;
-           padding:0 20px 0 0 ;
-       }
-
-        #email{
-            background-image:url("icons/ic_email_black_48dp.png");
-            width: 30px;
-            height: 30px;
-            background-repeat: no-repeat;
-            background-size: 30px;
-            cursor: pointer;
-        }
-
-        #plaats{
-            background-image:url("icons/ic_location_on_black_48dp.png");
-            width: 30px;
-            height: 30px;
-            background-repeat: no-repeat;
-            background-size: 30px;
-            cursor: pointer;
-        }
-
-
-
-
-
-
-    </style>
 
 </head>
 <body>
@@ -89,26 +18,21 @@
     <!--end header div-->
     <!--start nav bar-->
     <div class="navigatie">
-        <table class="table_nav">
-            <tr>
-                <td>butten</td>
-                <td> |</td>
-                <td><a href="#">London</a></td>
-                <td> |</td>
-                <td><a href="#">Paris</a></td>
-                <td> |</td>
-                <td><a href="#">Tokyo</a></td>
-            </tr>
-        </table>
-        <table class="table_contact">
-            <tr >
-                <td id="email"><a href="#"></a></td>
-                <td> |</td>
-                <td id="plaats"><a href="#"></a></td>
-                <td> |</td>
-                <td><a href="#">3</a></td>
-            </tr>
-        </table>
+
+            <ul class="link">
+                <li class="active"><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+
+
+     <ul class="icons">
+         <li id="email"><a href="#"></a></li>
+         <li id="plaats"><a href="#"></a></li>
+         <li><a href="#"></a></li>
+     </ul>
+
+        <div class="clear"></div>
     </div>
     <!--end nav bar-->
     <!--start content-->
