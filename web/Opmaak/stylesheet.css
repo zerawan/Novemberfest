@@ -1,15 +1,20 @@
-img{
+
+.clear {
+    clear: both;
+}
+
+img {
     display: block;
     margin: auto;
     width: 40%;
 }
-center{
+
+center {
     margin: auto;
     width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
-
 
 .container {
     width: 100%;
@@ -38,27 +43,77 @@ center{
     padding: 5em;
 }
 
-
 .navigatie {
     width: 100%;
     background-color: orange;
-    height: 30px; /* tijdelijk*/
 }
 
-.navigatie table.table_nav {
-    /*margin: auto;*/
-    float: left;
-    padding: 0 0 0 50%;
 
-}
 
-.navigatie table.table_contact {
+.icons {
     float: right;
-    padding:0 20px 0 0 ;
 }
 
-#email{
-    background-image:url("../icons/ic_email_black_48dp.png");
+
+
+
+
+/**/
+.nav{
+    float: left;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+/* Option 1 - Display Inline */
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+/**/
+
+#email {
+    background-image: url("../icons/ic_email_black_48dp.png");
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
@@ -66,11 +121,12 @@ center{
     cursor: pointer;
 }
 
-#plaats{
-    background-image:url("../icons/ic_location_on_black_48dp.png");
+#plaats {
+    background-image: url("../icons/ic_location_on_black_48dp.png");
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
     background-size: 30px;
     cursor: pointer;
 }
+
