@@ -1,0 +1,76 @@
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+center{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.header {
+    padding: 1em;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.footer {
+
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.content {
+    border-left: 1px solid gray;
+    padding: 5em;
+}
+
+
+.navigatie {
+    width: 100%;
+    background-color: orange;
+    height: 30px; /* tijdelijk*/
+}
+
+.navigatie table.table_nav {
+    /*margin: auto;*/
+    float: left;
+    padding: 0 0 0 50%;
+
+}
+
+.navigatie table.table_contact {
+    float: right;
+    padding:0 20px 0 0 ;
+}
+
+#email{
+    background-image:url("../icons/ic_email_black_48dp.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#plaats{
+    background-image:url("../icons/ic_location_on_black_48dp.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+}
