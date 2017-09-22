@@ -1,3 +1,8 @@
+
+.clear {
+    clear: both;
+}
+
 img{
     display: block;
     margin: auto;
@@ -42,20 +47,51 @@ center{
 .navigatie {
     width: 100%;
     background-color: orange;
-    height: 30px; /* tijdelijk*/
 }
 
-.navigatie table.table_nav {
-    /*margin: auto;*/
-    float: left;
-    padding: 0 0 0 50%;
 
-}
+/*.link{*/
+    /*float: left;*/
+/*}*/
 
-.navigatie table.table_contact {
+.icons{
     float: right;
-    padding:0 20px 0 0 ;
 }
+/**/
+
+ul .link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li .link {
+    float: left;
+}
+
+li a .link  {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.link  a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li.link  a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/**/
+
+
 
 #email{
     background-image:url("../icons/ic_email_black_48dp.png");
@@ -74,3 +110,4 @@ center{
     background-size: 30px;
     cursor: pointer;
 }
+
