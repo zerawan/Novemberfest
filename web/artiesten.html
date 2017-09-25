@@ -3,24 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Opmaak/stylesheet.css">
+    <script type="text/javascript" src="Slideshow.js"></script>
     <title>Artiesten</title>
 </head>
 <body>
-<table>
+<div class="container">
+    <div class="header">
+        <h1>Image</h1>
+    </div>
 
-</table>
-<H2>Upcoming artists</H2><br>
 
-<img src="Images/prince.jpg" alt="protrait" align="middle">
-<h3>Biggie Smalls</h3>
-<img src="Images/biggie_smalls.jpg" alt="prince_protrait">
-<h3>David Bowie</h3>
-<img src="Images/david_bowie.jpg" alt="protrait">
-<h3>Michael Jackson</h3>
-<img src="Images/micheal_jackson.jpg" alt="protrait">
-<h3>Queen</h3>
-<img src="Images/freddie-mercury.jpg" alt="prince_protrait">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img class="img" src="Images/prince.jpg" alt="protrait">
+            <div class="text">Prince</div>
+        </div>
 
-<p></p>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img class="img" src="Images/david_bowie.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img class="img" src="Images/biggie_smalls.jpg" alt="protrait">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img class="img" src="Images/micheal_jackson.jpg" alt="protrait">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img class="img" src="Images/freddie-mercury.jpg" alt="protrait">
+            <div class="text">Caption Three</div>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</div>
 </body>
 </html>
