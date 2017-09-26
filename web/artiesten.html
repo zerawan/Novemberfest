@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="Opmaak/stylesheet.css">
+    <link rel="stylesheet" href="Opmaak/stylesheet.css" type="text/css"/>
     <script type="text/javascript" src="Slideshow.js"></script>
-    <title>Artiesten</title>
+    <meta charset="UTF-8">
+    <title>Index</title>
+
+
 </head>
 <body>
+<!--body start-->
 <div class="container">
+    <!--start header div-->
     <div class="header">
-        <h1>Image</h1>
+        <h1>novemberfest</h1>
     </div>
-
-
-    <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-            <img class="img" src="Images/prince.jpg" alt="protrait">
-            <div class="text">Prince</div>
+    <!--end header div-->
+    <!--start nav bar-->
+    <div class="navigatie">
+        <div class="logo">
+            Logo
+            152 x 58
         </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-            <img class="img" src="Images/david_bowie.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="artiesten.html">Artisten</a></li>
+                <li><a href="schema.html">Schema</a></li>
+                <li><a href="kaartverkoop.html">Tickets</a></li>
+            </ul>
         </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-            <img class="img" src="Images/biggie_smalls.jpg" alt="protrait">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img class="img" src="Images/micheal_jackson.jpg" alt="protrait">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-            <img class="img" src="Images/freddie-mercury.jpg" alt="protrait">
-            <div class="text">Caption Three</div>
-        </div>
-
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="clear"></div>
     </div>
+    <!--end nav bar-->
+    <!--start content-->
+    <div class="content">
 
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img class="galleryImg" src="Images/prince.jpg" alt="protrait">
+                <div class="text">Prince</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img class="galleryImg" src="Images/david_bowie.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img class="galleryImg" src="Images/biggie_smalls.jpg" alt="protrait">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img class="galleryImg" src="Images/micheal_jackson.jpg" alt="protrait">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="galleryImg" src="Images/freddie-mercury.jpg" alt="protrait">
+                <div class="text">Caption Three</div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
     </div>
+    <!--end content-->
+    <!--start footer-->
     <div class="footer">
-        footer
+        <div class="foot">
+            my footer
+        </div>
     </div>
+    <!--end footer-->
+    <!--end container-->
 </div>
+<!--body end-->
 </body>
 </html>
