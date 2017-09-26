@@ -18,7 +18,6 @@
     color: red;
     display: inline-block;
     vertical-align: middle
-
 }
 
 .footer {
@@ -34,11 +33,144 @@
     text-align: center;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+     border-radius: 50%;
+    /*ronde icons*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+/*content*/
 .content {
     width: 100%;
     height: 100%;
 
 }
+
+.blok{
+    /*position: static;*/
+    /*background-color: #bb0000;*/
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    color: white;
+    width: 30%;
+    text-align: center;
+    background-color: #005f5f;
+    padding: 10px;
+}
+
+.info{
+    width: 100%;
+    background-color: #005f5f;
+}
+
+.myTekst{
+    margin: 10px;
+    /*padding: 10px;*/
+    width: 30%;
+    float: right;
+    background-color: white;
+    border-radius: 20px 0px;
+}
+
+.formulier{
+    width: 40%;
+    float: left;
+    /*background-color: white;*/
+    margin: 10px;
+    padding: 10px;
+    /*height: 100px;*/
+}
+
+.tekstInfo{
+    /*margin: 10px;*/
+    padding: 10px;
+}
+
+
+.prijsInfo{
+    width: 100%;
+    height: 50px;
+    /*background-color: #bb0000;*/
+    /*border: 1px solid black;*/
+    border-top:solid 1px #ccc ;
+    border-bottom: solid 1px #ccc;
+    padding: 0;
+    margin: 0;
+
+}
+.prijs{
+    float: right;
+    width: 30%;
+    height: 50px;
+    background-color: #007bb5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navigatie {
     width: 100%;
