@@ -105,6 +105,15 @@
     margin-right: auto;
 }
 
+.infoBlok{
+    /*position: static;*/
+    /*background-color: #bb0000;*/
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title{
     color: white;
     width: 30%;
@@ -120,10 +129,24 @@
     background-color: #005f5f;
 }
 
+.infoBalk{
+    width: 100%;
+    background-color: #005f5f;
+}
+
 .myTekst{
     margin: 10px;
     /*padding: 10px;*/
     width: 30%;
+    float: right;
+    background-color: white;
+    border-radius: 20px 0px;
+}
+
+.myInfoTekstBlock{
+    margin: 10px;
+    padding: 10px;
+    /*width: 100%;*/
     float: right;
     background-color: white;
     border-radius: 20px 0px;
@@ -352,4 +375,12 @@ h1{
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+
+/*google maps*/
+.myMaps{
+    width: 50%;
+    height: 500px;
+    margin: auto;
 }
