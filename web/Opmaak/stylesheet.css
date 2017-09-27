@@ -249,15 +249,16 @@ h1{
     margin-right: -4px;
 }
 
+
+
+/*slide show*/
+
 /*for slideshow*/
  {box-sizing:border-box}
 
-
-
-
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
+    width: 50%;
     height:100%;
     position: relative;
     margin: auto;
@@ -302,7 +303,7 @@ h1{
 /* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
