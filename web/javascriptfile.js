@@ -64,7 +64,7 @@ function loadMap() {
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function responsiveMenu() {
-    var x = document.getElementById("myTopnav");
+    var x = document.getElementById("responseMenu");
     if (x.className === "nav") {
         x.className += " responsive";
     } else {
