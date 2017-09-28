@@ -39,10 +39,36 @@ function showSlides(n) {
 function ScheduleShow(id) {
     var x = document.getElementById(id);
 
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
+    if (x.style.display === 'block') {
         x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
+}
+
+
+//-----Google maps-----//
+
+function loadMap() {
+    var mapOptions = {center:new google.maps.LatLng(52.219883, 6.877594), zoom:15};
+    var map = new google.maps.Map(document.getElementById("plaats"), mapOptions);
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(52.219883, 6.877594),
+        map: map,
+        draggable:true,
+        animation:google.maps.Animation.BOUNCE,
+    });
+}
+
+//-----Responsive-----//
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function responsiveMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
     }
 }
 

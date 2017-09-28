@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <link rel="stylesheet" href="Opmaak/stylesheet.css" type="text/css"/>
     <script type="text/javascript" src="javascriptfile.js"></script>
     <meta charset="UTF-8">
     <title>Index</title>
-
-
 </head>
 <body>
 <!--body start-->
@@ -17,18 +16,14 @@
     </div>
     <!--end header div-->
     <!--start nav bar-->
-    <div class="navigatie">
-        <div class="logo">
-            Logo
-            152 x 58
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="artiesten.html">Artisten</a></li>
-                <li class="active"><a href="schema.html">Schema</a></li>
-                <li><a href="kaartverkoop.html">Tickets</a></li>
-            </ul>
+
+        <div class="nav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="artiesten.html">Artiesten</a>
+                <a href="schema.html">Schema</a>
+                <a href="kaartverkoop.html">Tickets</a>
+                <a href="info.html">Info</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
         </div>
         <div class="clear"></div>
     </div>
@@ -38,7 +33,7 @@
 
 
         <button onclick="ScheduleShow('dag1')">Dag 1</button>
-        <div id="dag1">
+        <div id="dag1" class="scheduleHidden">
             <div class="day1Style"> text for the schedule, the day, the artist the time block the stage etc. expect alot text here<br>
             with alot of text comes with alot of resposibility to make alot sentences to make it useful so the hide show element looks<br>
             fancy as it can be and long and redundant
@@ -46,7 +41,7 @@
         </div>
         <br>
         <button onclick="ScheduleShow('dag2')">Dag 2</button>
-        <div id="dag2">
+        <div id="dag2" class="scheduleHidden">
             <div class="day2Style">
             text for the schedule, the day, the artist the time block the stage etc. expect alot text here<br>
             with alot of text comes with alot of resposibility to make alot sentences to make it useful so the hide show element looks<br>
@@ -56,7 +51,7 @@
         </div>
         <br>
         <button onclick="ScheduleShow('dag3')">Dag 3</button>
-        <div id="dag3">
+        <div id="dag3" class="scheduleHidden">
             <div class="day3Style">
             text for the schedule, the day, the artist the time block the stage etc. expect alot text here<br>
             with alot of text comes with alot of resposibility to make alot sentences to make it useful so the hide show element looks<br>
