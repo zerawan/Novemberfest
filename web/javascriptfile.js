@@ -56,7 +56,7 @@ function loadMap() {
         position: new google.maps.LatLng(52.219883, 6.877594),
         map: map,
         draggable:true,
-        animation:google.maps.Animation.BOUNCE,
+        animation:google.maps.Animation.BOUNCE
     });
 }
 
@@ -71,4 +71,6 @@ function responsiveMenu() {
         x.className = "nav";
     }
 }
+
+
 

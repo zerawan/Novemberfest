@@ -34,6 +34,8 @@ body{
     margin: 0 auto;
     left: 0;
     overflow: hidden;
+    position: fixed;
+
 }
 
 .fa {
@@ -95,29 +97,18 @@ body{
 /*content*/
 .content {
     width: 100%;
-    /*height: 100%;*/
     min-height: 100%;
-/*overflow-y: scroll;*/
-/*position: absolute;*/
-    /*bottom: 0;*/
-
-
 }
 
-.blok{
-    /*position: static;*/
-    /*background-color: #bb0000;*/
-    width: 50%;
 
+.blok{
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .infoBlok{
-    /*position: static;*/
-    /*background-color: #bb0000;*/
     width: 50%;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -212,15 +203,7 @@ h1{
 
 
 
-.logo {
-    width: 10%;
-    /*float: left;*/
-    color: white;
-    text-align: center;
-    background-color: red;
-    display: inline-block;
-    height: 100%;
-}
+
 
 
 
@@ -374,7 +357,6 @@ h1{
 /*-------Responsive------*/
 
 
-
 .nav {
 /*    float: right;
     width: 90%;
@@ -382,6 +364,8 @@ h1{
     height: 100%;*/
     overflow: hidden;
     background-color: #333;
+    position: relative;
+
 
 }
 
@@ -394,6 +378,7 @@ h1{
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
+
 }
 
 .nav a:hover {
