@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <link rel="stylesheet" href="Opmaak/stylesheet.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="javascriptfile.js"></script>
     <meta charset="UTF-8">
     <title>Index</title>
 </head>
@@ -14,15 +16,14 @@
         <h1>novemberfest</h1>
 
         <!--start nav bar-->
-            <div class="nav">
-                <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="artiesten.html">Artisten</a></li>
-                    <li><a href="schema.html">Schema</a></li>
-                    <li><a href="kaartverkoop.html">Tickets</a></li>
-                    <li><a href="info.html">Info</a></li>
-                </ul>
-            </div>
+        <div class="nav" id="responseMenu">
+            <a href="index.html">Home</a>
+            <a href="artiesten.html">Artiesten</a>
+            <a href="schema.html">Schema</a>
+            <a href="kaartverkoop.html">Tickets</a>
+            <a href="info.html">Info</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
+        </div>
             <div class="clear"></div>
         <!--end nav bar-->
     </div>
