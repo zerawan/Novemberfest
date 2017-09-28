@@ -15,7 +15,7 @@ function showSlides(n) {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
 
-    // set index?
+
     if (n > slides.length) {slideIndex = 1}
 
     //
@@ -33,3 +33,16 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+//-----Hide and show------//
+
+function ScheduleShow(id) {
+    var x = document.getElementById(id);
+
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
