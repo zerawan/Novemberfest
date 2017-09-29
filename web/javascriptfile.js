@@ -1,3 +1,7 @@
+
+
+//---------Slideshow----------//
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -11,22 +15,19 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    // get css classes
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
 
 
     if (n > slides.length) {slideIndex = 1}
 
-    //
     if (n < 1) {slideIndex = slides.length}
 
-    // get only one image
+
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
 
-    // go through each slide?
     for (i = 1; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
@@ -62,7 +63,6 @@ function loadMap() {
 
 //-----Responsive-----//
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function responsiveMenu() {
     var x = document.getElementById("responseMenu");
     if (x.className === "nav") {
