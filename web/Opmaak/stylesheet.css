@@ -3,26 +3,53 @@
     clear: both;
 
 }
-html,body{
+
+html, body {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: url('../Images/105pead.jpg') repeat-y;
     background-size: 100%;
+
 }
 
+.frameText {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    font-size: 300%;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(220, 108, 98, 0.8);
+    border-radius: 10px !important;
+}
 
+.photoCol {
+
+    width: 50%;
+    margin: auto;
+    background-size: cover;
+}
+
+.innerCol {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
 
 .header {
-    background: url('../Images/bg01.jpg') no-repeat center center;
+    background: url('../Images/november.jpg') no-repeat center center;
     padding-top: 60px;
     width: 100%;
     min-height: 100px;
     background-size: 100%;
     text-align: center;
-    color: red;
-
+    color: white;
+    font-size: 200%;
 }
 
 .footer {
@@ -34,86 +61,29 @@ body{
     margin: 0 auto;
     left: 0;
     overflow: hidden;
-    position: fixed;
 
-}
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-rss {
-    background: #ff6600;
-    color: white;
 }
 
 /*content*/
 .content {
     width: 100%;
-    min-height: 100%;
+    min-height: calc(100vh - 2.5em); /* this leaves space for the sticky footer */
+    height: 100%;
 }
 
-
-.blok{
+.blok {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.infoBlok{
+.infoBlok {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.title{
+.title {
     color: white;
     width: 30%;
     text-align: center;
@@ -123,67 +93,61 @@ body{
     font-weight: 800;
 }
 
-.info{
+.info {
     width: 100%;
     background-color: #005f5f;
 }
 
-.infoBalk{
+.infoBalk {
     width: 100%;
     background-color: #005f5f;
 }
 
-.myTekst{
+.myTekst {
     margin: 10px;
-    /*padding: 10px;*/
     width: 30%;
     float: right;
     background-color: white;
     border-radius: 20px 0;
 }
 
-.myInfoTekstBlock{
+.myInfoTekstBlock {
     margin: 10px;
     padding: 10px;
-    /*width: 100%;*/
     float: right;
     background-color: white;
     border-radius: 20px 0;
 }
 
-.formulier{
+.formulier {
     width: 40%;
     float: left;
-    /*background-color: white;*/
     margin: 10px;
     padding: 10px;
     color: white;
 }
 
-.tekstInfo{
+.tekstInfo {
     padding: 10px;
 }
 
-.container_prijs{
+.container_prijs {
     width: 100%;
-    border-top:solid 1px #ccc ;
+    border-top: solid 1px #ccc;
     border-bottom: solid 1px #ccc;
 }
 
-.prijsInfo{
+.prijsInfo {
     width: 70%;
     float: left;
     height: 50px;
     background-color: #ccc;
     vertical-align: middle;
     text-align: center;
-
-    /*tekst van de kant houden ********** */
     line-height: 50px;
-
 }
 
-.prijs{
+.prijs {
     display: inline-block;
     float: right;
     width: 30%;
@@ -197,32 +161,21 @@ body{
     color: white;
 }
 
-h1{
+h1 {
     font-size: 150%
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*slide show*/
 
 /*for slideshow*/
- {box-sizing:border-box}
+{
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
     width: 50%;
-    height:100%;
+    height: 100%;
     position: relative;
     margin: auto;
 }
@@ -254,11 +207,11 @@ h1{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Images */
-.galleryImg{
+.galleryImg {
     height: 100%;
     width: 100%;
 }
@@ -285,7 +238,7 @@ h1{
 
 /* The dots/bullets/indicators */
 .dot {
-    cursor:pointer;
+    cursor: pointer;
     height: 13px;
     width: 13px;
     margin: 0 2px;
@@ -308,64 +261,62 @@ h1{
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
-
 /*google maps*/
-.myMaps{
+.myMaps {
     width: 50%;
     height: 500px;
     margin: auto;
 }
+
 /*------------------------Schema opmaak-------------------*/
 
-.scheduleHidden
-{
+.scheduleHidden {
     display: none;
 }
 
-.hoveSchedule:hover
-{
+.hoveSchedule:hover {
     background-color: white;
 
 }
-.day1Style
-{
+
+.day1Style {
     color: white;
     background-color: #3B5998;
 }
 
-.day2Style
-{
+.day2Style {
     color: white;
     background-color: #bb0000;
 }
 
-.day3Style
-{
+.day3Style {
     color: white;
     background-color: green;
 }
 
 /*-------Responsive------*/
 
-
 .nav {
-/*    float: right;
-    width: 90%;
-    display: inline-block;
-    height: 100%;*/
     overflow: hidden;
     background-color: #333;
     position: relative;
-
 
 }
 
@@ -391,19 +342,6 @@ h1{
     cursor: default;
 }
 
-/*.nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-}*/
-
-/*.nav li {
-    display: inline-block;
-    margin-right: -4px;
-}*/
-
 /* Hide the link that should open and close the nav on small screens */
 .nav .icon {
     display: none;
@@ -412,7 +350,10 @@ h1{
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
 Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .nav a:not(:first-child) {display: none;}
+    .nav a:not(:first-child) {
+        display: none;
+    }
+
     .nav a.icon {
         float: right;
         display: block;
@@ -422,12 +363,16 @@ Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks
 on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-    .nav.responsive {position: relative;}
+    .nav.responsive {
+        position: relative;
+    }
+
     .nav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .nav.responsive a {
         float: none;
         display: block;
